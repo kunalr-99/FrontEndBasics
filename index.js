@@ -69,17 +69,62 @@
 // console.log(4);
 // console.log(5);
 
-// for (initializer; condition; incrementor)
-for (var count = 10; count >= 1; count--) {
-  // Code block
-  console.log(count);
-}
+// // for (initializer; condition; incrementor)
+// for (var count = 10; count >= 1; count--) {
+//   // Code block
+//   console.log(count);
+// }
 
-for (var count = 1; count <= 20; count++) {
-  // Code block
-  if (count % 2 == 0) {
-    console.log(count, "is Even");
-  } else {
-    console.log(count, "is Odd");
-  }
-}
+// for (var count = 1; count <= 20; count++) {
+//   // Code block
+//   if (count % 2 == 0) {
+//     console.log(count, "is Even");
+//   } else {
+//     console.log(count, "is Odd");
+//   }
+// }
+
+// Type Coersion
+// var data = "15";
+// var newData = Number(data);
+// console.log(data, typeof data);
+// console.log(newData, typeof newData);
+
+// var start = Number("20");
+// console.log(start);
+// console.log(typeof start);
+// var end = Number("25");
+// console.log(end);
+// console.log(typeof end);
+// console.log(start + end);
+
+// 1 to 50 print kar
+// var start = Number(prompt("Enter begining number"));
+// var end = Number(prompt("Enter ending number"));
+
+// for (var i = start; i <= end; i++) {
+//   console.log(i);
+// }
+
+// var num1 = Number(prompt("Enter number 1"));
+// var num2 = Number(prompt("Enter number 2"));
+// var action = prompt("Enter action");
+// var res = 0;
+
+// if (action == "-") {
+//   // Subtract
+//   res = num1 - num2;
+// } else if (action == "+") {
+//   // Addtion
+//   res = num1 + num2;
+// } else if (action == "*") {
+//   // Multiplicaton
+//   res = num1 * num2;
+// } else if (action == "/") {
+//   // Division
+//   res = num1 / num2;
+// } else {
+//   alert("Enter valid action");
+// }
+
+// console.log(res);
